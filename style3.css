@@ -1,0 +1,60 @@
+body{color:white;}
+
+#wrapper{width:800 px; background-color:#099;  margin-bottom:10em;}
+
+#wrapper2{width:360px; background-color:#099; margin-left:4em; margin-top:2em; margin-bottom:2em; position:relative;}
+
+#formwrapper1 {width:400px; height:640; background-color:#333; display:inline-block;}
+
+form{width:400px; margin:0 auto 0 auto;}
+
+label{margin:0.3em 0 0.3em 1em; vertical-align:text-top;}
+
+input{margin:0 0 0 1em;}
+
+#label1 {display:block; margin:0.3em 0 0.3em 1em;}
+
+textarea{width:150px; height:80px;margin:0 0 0 1em; vertical-align:text-top;}
+
+fieldset{border:none; padding:0 0 0 2em; margin-bottom:2em;}
+
+.btn{width:125px; margin:0 0 2em 0; background-color:#099; font-size:16px; color:#2b2b2b;  
+font-family:arial,helvetica,sans serif; font-weight:bold}
+
+div#slider { width: 360px; max-width: 3600px; overflow: hidden }
+
+
+div#slider figure {
+
+position: relative; width:360 px;
+
+margin: 0; padding: 0; font-size: 0; text-align: left;
+animation: 10s slidy infinite;  
+
+}
+
+figure#imagestrip img { width: 360 px; height: 641 px; float: left; }
+
+
+
+@keyframes slidy { 
+
+0% { left: 0%; }
+
+20% { left: 0%; }
+
+25% { left: -100%; }
+
+45% { left: -100%; }
+
+50% { left: -200%; }
+
+70% { left: -200%; } 
+
+75% { left: -300%; }
+
+95% { left: -300%; }
+
+100% { left: -400%; } 
+
+}

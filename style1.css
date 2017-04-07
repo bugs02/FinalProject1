@@ -1,0 +1,27 @@
+body{color:white;}
+
+wrapper{width:800 px; height:1000px; background-color:#099; margin-bottom:2em; text-align:center; 
+margin-left:10em;}
+
+#formwrapper1 {width:800px; background-color:#333; margin:2em auto 0 auto;}
+
+form{width:850px; margin:0 auto 0 auto;}
+
+label{margin:0.3em 0 0.3em 1em;}
+
+input{margin:0 0 0 1em;}
+
+#label1 {display:block; margin:0.3em 0 0.3em 1em;}
+
+textarea{width:200px; height:80px;margin:0 0 0 1em;}
+
+fieldset{border:none; padding:0 0 0 2em;}
+
+.btn{width:125px; margin:0 0 2em 0; background-color:#099; font-size:16px; color:#2b2b2b;  
+font-family:arial,helvetica,sans serif; font-weight:bold; border:0;}
+
+h2{
+	text-align:center;
+	align-content:center;
+	vertical-align:middle;
+}

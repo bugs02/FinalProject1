@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper{
+	display: block;
+	height: 400px;
+	width: 960px;
+	z-index: 99;;
+}
+#container{
+	background-color: #333;
+	display: block;
+	float: left;
+	height: 400px;
+	width: 960px;
+	overflow: auto;
+	z-index:99;
+}
+#prev{
+	background-image: url(Images/AL-1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	float: left;
+	height: 400px;
+	width: 100px;
+	position: relative;
+	z-index:150;
+}
+#next{
+	background-image: url(Images/AR-1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	float: right;
+	height: 400px;
+	width: 100px;
+	position: relative;
+	z-index: 99;
+}
+#slider{
+	display: block;
+	float: left;
+	height: 400px;
+	width: 960px;
+	overflow: hidden;
+	position: absolute;
+	margin: auto;
+	z-index:99;
+}
